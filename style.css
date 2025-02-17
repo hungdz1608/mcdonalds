@@ -1,0 +1,616 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#phan-tren{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1519px;
+    height: 130px;
+    background-color: #191919;
+    gap: 70px;
+
+}
+#logo{
+  width:110px;
+  height: 120px;
+    cursor: pointer;
+}
+#chu-head{
+    font-weight:100;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+#chu-head #chu_3{
+    color: #F3A22F;
+    cursor: pointer;
+}
+#chu-head #chu_1{
+    cursor: pointer;
+}
+#chu-head #chu_2{
+    cursor: pointer;
+}
+#chu-head #chu_4{
+    cursor: pointer;
+}
+#chu-head #chu_5{
+    cursor: pointer;
+}
+#chu-head #chu_6{
+    cursor: pointer;
+}
+#chu-head #chu_1:hover{
+    color: #F3A22F;
+}
+#chu-head #chu_2:hover{
+    color: #F3A22F;
+}
+#chu-head #chu_4:hover{
+    color: #F3A22F;
+}
+#chu-head #chu_5:hover{
+    color: #F3A22F;
+}
+#chu-head #chu_6:hover{
+    color: #F3A22F;
+}
+#head-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 10px
+}
+#location{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    background-color: #BD0017;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#logo-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid #F3A22F;
+    color: #F3A22F;
+}
+#chu-trong-location{
+    margin: 0 17px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+#chu-trong-location #so_1{
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+#chu-trong-location #so_2{
+    margin: 0;
+    font-size: 16px;
+    color: #F3A22F;
+}
+#ship{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    background-color: #BD0017;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#logo-ship{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid #F3A22F;
+    color: #F3A22F;
+}
+#chu-trong-ship{
+    margin: 0 17px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+#chu-trong-ship #so_1{
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+#chu-trong-ship #so_2{
+    margin: 0;
+    font-size: 16px;
+    color: #F3A22F;
+}
+#quangcao{
+    width: 1519px;
+    position: relative;
+    display: block;
+}
+#hinh-tron{
+    position: absolute;
+    top: 570px;
+    left: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 15px
+}
+#hinh-tron-1{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+#hinh-tron-2{
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    background-color: white;
+}
+#hinh-tron-3{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+#hinh-tron-4{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+#body-title{
+    margin: 15px 0  0 215px;
+    font-size: 30px;
+    color: #888888;
+}
+#hang-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#mon-1{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-1{
+    width: 175px;
+    height: 175px;
+}
+#mon-1 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-1 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-1:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-1:hover #nut-xem{
+    display: flex;
+}
+#mon-2{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-2{
+    width: 175px;
+    height: 175px;
+}
+#mon-2 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-2 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-2:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-2:hover #nut-xem{
+    display: flex;
+}
+#mon-3{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-3{
+    width: 175px;
+    height: 175px;
+}
+#mon-3 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-3 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-3:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-3:hover #nut-xem{
+    display: flex;
+}
+#mon-4{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-4{
+    width: 175px;
+    height: 175px;
+}
+#mon-4 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-4 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-4:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-4:hover #nut-xem{
+    display: flex;
+}
+#hang-2{
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#mon-5{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-5{
+    width: 175px;
+    height: 175px;
+}
+#mon-5 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-5 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-5:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-5:hover #nut-xem{
+    display: flex;
+}
+#mon-6{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-6{
+    width: 175px;
+    height: 175px;
+}
+#mon-6 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-6 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-6:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-6:hover #nut-xem{
+    display: flex;
+}
+#mon-7{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-7{
+    width: 175px;
+    height: 175px;
+}
+#mon-7 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-7 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-7:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-7:hover #nut-xem{
+    display: flex;
+}
+#mon-8{
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-8{
+    width: 175px;
+    height: 175px;
+}
+#mon-8 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-8 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-8:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-8:hover #nut-xem{
+    display: flex;
+}
+#hang-3{
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+#mon-9{
+    margin: 0 0 0 216px;
+    padding: 10px;
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hinh-mon-9{
+    width: 175px;
+    height: 175px;
+}
+#mon-9 #ten-mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+#mon-9 #nut-xem{
+    display: none;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+#mon-9:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mon-9:hover #nut-xem{
+    display: flex;
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#divider{
+    display: flex;    width: 70%;
+    margin: 20px 0 0 0;
+    border-top: 1px solid black
+}
+
+#info-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 73px;
+}
+#info-2 #left-1{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: #444444;
+    margin:0 0 10px 0 ;
+    text-decoration: none;
+}
+#info-2 #left-2{
+    display: flex;
+    flex-direction: column;
+}
+#info-2 #right-2{
+    display: flex;
+    flex-direction: column;
+}
+#ins{
+    width: 40px;
+    height: 40px;
+}
+#face{
+    width: 40px;
+    height: 40px;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+}
+#social{
+    margin: 10px 0 0 0;
+}
+#co-my{
+    cursor: pointer;
+}
+#co-viet{
+    cursor: pointer;
+}
+#thong-tin-cuoi{
+    font-weight: 700;
+}
+#last{
+    margin: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #191919;
+    color: #E0E0E0;
+    width:1519px;
+    height: 48px;
+}
+#last #in-last{
+    margin: 0 180px 0 0;
+}
+#ten-mon{
+    color: #A4A4A4;
+}
+#nut-xem{
+    background-color: #BD0017;
+}
