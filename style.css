@@ -363,6 +363,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 #hinh-mon-5{
     width: 175px;
